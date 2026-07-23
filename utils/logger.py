@@ -1,10 +1,3 @@
-"""
-Central logging configuration.
-Every test-case execution result is logged to both the console and a
-rotating log file under reports/, satisfying the project requirement
-that "each test case execution must include logging of results."
-"""
-
 import logging
 import os
 
