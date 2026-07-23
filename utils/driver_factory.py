@@ -1,12 +1,3 @@
-"""
-Driver Factory
----------------
-Creates and configures a Selenium WebDriver instance for the requested
-browser, enabling cross-browser execution as required by the project scope.
-Encapsulating this logic follows the Factory design pattern and keeps
-browser-specific setup out of the test / page layers.
-"""
-
 from selenium import webdriver
 from selenium.webdriver.chrome.options import Options as ChromeOptions
 from selenium.webdriver.chrome.service import Service as ChromeService
