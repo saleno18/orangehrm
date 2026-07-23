@@ -1,0 +1,6 @@
+test_id,tester,username,password,expected
+Guvi-02,Administrator,Admin,admin123,valid
+Guvi-03,Venkat,manager,Password@123,invalid
+Guvi-04,Suman Gangopadhyay,suman@ovi.in,password@123,invalid
+Guvi-05,QA Bot,Admin,wrong_password,invalid
+Guvi-06,QA Bot,,admin123,invalid
